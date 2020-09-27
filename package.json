@@ -1,0 +1,19 @@
+{
+  "name": "giphlify-aws-amplify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "build index.html "
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "aws-amplify": "^3.3.2"
+  }
+}

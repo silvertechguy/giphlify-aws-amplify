@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Giphlify</h1>
+
+    <button id="plus-button" class="plus-button">+</button>
+    <div class="container"></div>
+
+    <div id="create-modal" class="modal hidden">
+      <button id="close-create-button" class="close-button">x</button>
+      <h2>Add Gif</h2>
+      <form id="create-form">
+        <label for="altText">Alt Text</label>
+        <input type="text" name="altText" id="altText" />
+        <label for="url">URL</label>
+        <input type="text" name="url" id="url" />
+        <input type="submit" value="Create" />
+      </form>
+    </div>
+
+    <div id="edit-modal" class="modal hidden">
+      <div class="row">
+        <button id="close-edit-button" class="close-button">x</button>
+        <button id="delete-button" class="delete-button">Delete Gif</button>
+      </div>
+      <h2 id="edit-title">Update</h2>
+      <form id="edit-form">
+        <label for="altText">Alt Text</label>
+        <input type="text" name="altText" id="edit-altText" />
+        <label for="url">URL</label>
+        <input type="text" name="url" id="edit-url" />
+        <input type="submit" value="Edit" />
+      </form>
+    </div>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
